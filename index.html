@@ -4,13 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+    <title>Phonie</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h2>make some magic here!!</h2>
+    <header>
+    <h1 class="header">PHONIE APP</h1>
+  </header>
+  <main class="container">
+    <div class="wrap">
+      <h1 class="form_header">SUBMIT A REQUEST</h1>
+      <form action="#" class="form">
+
+        <div class="form_group">
+          <label for="firstname" class="form_input_label">First Name</label>
+          <input type="text" id="firstname" placeholder="Enter first name" required />
+        </div>
+
+        <div class="form_group">
+          <label for="lastname" class="form_input_label">Last Name</label>
+          <input type="text" id="lastname" placeholder="Enter last name" required />
+        </div>
+
+        <div class="form_group">
+          <label for="email" class="form_input_label">Email Address</label>
+          <input type="email" id="email" placeholder="Enter email address" required />
+        </div>
+
+        <div class="form_group">
+          <label for="phone" class="form_input_label">Phone Number</label>
+          <div class="phoneRow">
+            <input type="tel" id="phone" placeholder="Enter phone number" required />
+            <img id="network" />
+          </div>
+        </div>
+
+
+        <div class="form_group">
+          <button class="submit_btn">Submit</button>
+        </div>
+      </form>
+    </div>
+
+  </main>
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>

@@ -1,0 +1,188 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+</style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  width: auto;
+  height: 75px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #68bb59;
+}
+
+.header{
+  color: white;
+  margin: auto;
+  padding: 10px;
+  margin-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  background-color: #1e5631;
+}
+
+.container {
+width: 1200px;
+max-width: 100%;
+min-height: 900px;
+margin: 0 auto;
+}
+/* the form input style */
+
+.form {
+    width: 60%;
+    height: 500px;
+    margin: 30px auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: black;
+    border-radius:10px;
+}
+/* submit a request style */
+
+.form_header {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+/* the form lebel */
+
+.form_group {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input_label {
+  color: white;
+  padding: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+}
+
+input {
+  padding: 20px;
+  border-radius: 10px;
+  height: 10%;
+  border-color:white;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+}
+
+.submit_btn {
+  width: 30%;
+  padding: 10px;
+  margin-top: 40px;
+  border-radius: 15px;
+  margin: auto;
+  font-size: 1.1em;
+}
+.phoneRow{
+  display: flex;
+  align-items: center;
+}
+#phone{
+  flex: 1;
+}
+
+#network{
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin-left: 2px;
+}
+
+footer{
+  width: auto;
+  height: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #68bb59;
+}
+
+.footer{
+  color: white;
+  margin: auto;
+  padding: 10px;
+  margin-left: 40%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* for screen lesser than 320px */
+
+@media (max-width: 320px){
+.header{
+  margin-left: 10%;
+  font-size: 30px;
+}
+.footer{
+  margin-left: 20%;
+  font-size: 10px;
+}
+#phone{
+  width:100%;
+}
+ .submit_btn {
+  width: 60%;
+}
+
+/* for screen within the side of 320px and 480px */
+
+@media (min-width: 321px) and (max-width: 480px){
+.header{
+  margin-left: 40%;
+  font-size: 30px;
+}
+  
+  .submit_btn {
+  width: 50%;
+}
+.footer{
+  margin-left: 15%;
+}
+}
+
+/* for screen within the size of 481px and 768px */
+
+@media (min-width: 481px) and (max-width: 768px){
+.header{
+  margin-left: 25%;
+  font-size: 2px;
+}
+.footer{
+  margin-left: 40%;
+}
+}
+
+/*  for screen within the side of 481px and 1024px */
+
+@media (min-width: 481px) and (max-width: 1024px){
+.header{
+  margin-left: 50%;
+  font-size: 30px;
+}
+.footer{
+  margin-left: 40%;
+}
+}
+
+/* for screen larger than 1024px */
+@media (min-width: 1024px){
+.header{
+  margin-left: 40%;
+  font-size: 30px;
+}
+.footer{
+  margin-left: 40%;
+}
+}
